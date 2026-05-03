@@ -6,7 +6,7 @@ int main() {
 	char input[512];
 	double nums[128];
 	int count = 0;
-	printf("Amount of nums: ");
+	printf("Nums: ");
 	fgets(input, sizeof(input), stdin);
 	char *token = strtok(input, " \t\n");
 	while(token != NULL && count<128){
